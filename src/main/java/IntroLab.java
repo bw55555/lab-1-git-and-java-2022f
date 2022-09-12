@@ -40,7 +40,10 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
-
+    public static String hisanoya() {
+        return printLabMessage("Hello", "Yasu", true,
+                "Nice to meet you");
+    }
     /**
      * An example method that calls on printLabMessage.
      */
@@ -51,7 +54,7 @@ public class IntroLab {
 
 
     public static void main(final String[] args) {
-        System.out.println(exampleStudent());
+        System.out.println(hisanoya());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
