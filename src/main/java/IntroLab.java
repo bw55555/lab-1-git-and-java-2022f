@@ -41,7 +41,7 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
     public static String hassa864() {
-        return printLabMessage("Yo!", "Mahir", true, "Nice to meet you!")
+        return printLabMessage("Yo", "Mahir", true, "Nice to meet you!");
     }
 
     /**
@@ -62,13 +62,9 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
-
-
-    }
-
-    public static void main_hassa864(final String[] args) {
         System.out.println(hassa864());
+
+
     }
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
 
