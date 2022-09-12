@@ -40,6 +40,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String hassa864() {
+        return printLabMessage("Yo", "Mahir", true, "Nice to meet you!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,10 +62,10 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(hassa864());
 
 
     }
-
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
 
 }
